@@ -6,7 +6,7 @@ import numpy as np
 
 @st.cache_resource
 def load_leaf_model():
-    return tf.keras.models.load_model('tomato_leaf_classifier.h5')
+    return tf.keras.models.load_model('tomato_leaf_classifier_v2.h5')
 
 @st.cache_resource
 def load_sanity_model():
