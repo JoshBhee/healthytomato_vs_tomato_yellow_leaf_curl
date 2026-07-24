@@ -21,7 +21,7 @@ PLANT_KEYWORDS = ['leaf', 'plant', 'flower', 'vegetable', 'fruit', 'tree', 'fung
 st.title("Tomato Leaf Classifier")
 st.write("Upload a tomato leaf image to check for Healthy or Yellow Leaf Curl Virus.")
 
-uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png","avif"])
 
 if uploaded_file is not None:
     try:
